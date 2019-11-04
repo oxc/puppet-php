@@ -178,7 +178,7 @@ class php::params inherits php::globals {
       $fpm_group               = 'www'
       $embedded_package_suffix = 'embed'
       $embedded_inifile        = "${config_root}/php-embed.ini"
-      $package_prefix          = 'php56-'
+      $package_prefix          = $php::globals::package_prefix
       $compiler_packages       = ['gcc']
       $manage_repos            = false
       $root_group              = 'wheel'
